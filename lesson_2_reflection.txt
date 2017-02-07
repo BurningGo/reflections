@@ -2,3 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	=> It creates new repository at the current directory. To start tracking history of files, we should do this.
 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	=> Not all files in the working directory are automatically tracked by the gits. Only the files 'added' by git are tracked. The staging area is an area where those 'added' files reside and are tracked. 
+
