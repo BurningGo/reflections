@@ -7,3 +7,23 @@ How is the staging area different from the working directory and the repository?
 
 	=> Not all files in the working directory are automatically tracked by the gits. Only the files 'added' by git are tracked. The staging area is an area where those 'added' files reside and are tracked. 
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+	=> When there are multiple logical changes from the last commit, each logical change can be added to the staging area one-by-one, and can be commited one-by-one with different messages.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	=> When it is needed to test some experimental features, When different language version is required temporarily.
+
+How do the diagrams help you visualize the branch structure?
+	=> Diagrams is self-explanatory about the structure rather than simple text. 
+
+What are the pros and cons of Git¡¯s automatic merging vs. always doing merges manually?
+
+   Pros : it relieves the effort for repeating laborous merge operations
+   Cons : Unless the codes are carefully checked, an undetected bugs can be easily generated due to different changes applied different part of the codes. 
+
+
+
+
+
